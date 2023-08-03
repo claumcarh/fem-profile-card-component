@@ -8,21 +8,17 @@
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  <main class="container">
-    <article class="content">
-      <div class="header">
-        <img class="fondo" src="./assets/images/bg-pattern-card.svg" alt="Background header">
-      </div>
-      <div class="text">
-        <img class="victor" src="./assets/images/image-victor.jpg" alt="Victor Crest">
-        <h1 class="nombre">Victor Crest <span>26</span></h1>
-        <p> <span>London</span></p>
-        <div class="separator"></div>
-        <div class="info">
-          <div>80K <span>Followers</span></div>
-          <div>803K <span>Likes</span></div>
-          <div>1.4K <span>Photos</span></div>
-        </div>
+  <main class="main">
+    <article class="card">
+      <img class="fondo" src="./assets/images/bg-pattern-card.svg" alt="">
+      <img class="card__profile-img" src="./assets/images/image-victor.jpg" alt="Victor Crest">
+      <h1 class="card__title">Victor Crest <span class="card__title--normal">26</span></h1>
+      <p class="card__subtitle">London</p>
+      <div class="card__separator"></div>
+      <div class="card__info">
+        <div class="card__statistics">80K <span class="card__statistics--lower">Followers</span></div>
+        <div class="card__statistics">803K <span class="card__statistics--lower">Likes</span></div>
+        <div class="card__statistics">1.4K <span class="card__statistics--lower">Photos</span></div>
       </div>
     </article>
   </main>

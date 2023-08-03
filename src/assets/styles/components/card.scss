@@ -1,0 +1,62 @@
+.card {
+  max-width: 20.375rem;
+  background-color: #fff;
+  border-radius: 0.9375rem;
+  overflow: hidden;
+  margin: 1rem;
+  margin: auto;
+
+  &__profile-img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__title {
+    color: hsl(229, 23%, 23%);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.81rem;
+  }
+
+  &__title--normal {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+  }
+
+  &__subtitle {
+    color: hsl(227, 10%, 46%);
+    font-size: 0.875rem;
+  }
+
+  &__separator {
+    border: 1px solid hsl(227, 10%, 46%, 0.2);
+    margin-top: 1.75rem;
+  }
+
+  &__info {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    padding: 1.5rem 3.31rem 1.69rem;
+  }
+
+  &__statistics {
+    display: flex;
+    gap: 0.56rem;
+    flex-direction: column;
+    font-size: 1.125rem;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+  }
+
+  &__statistics--lower {
+    font-size: 0.625rem;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+  }
+}
